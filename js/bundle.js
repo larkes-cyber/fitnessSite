@@ -516,7 +516,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 function timers(){
-    let deadline=new Date('2021-11-5');
+    let deadline=new Date('2023-12-5');
     deadline.setDate(deadline.getDay()-(new Date()).getDay());
     deadline.setHours(deadline.getHours()-(new Date()).getHours())
     deadline.getSeconds(deadline.getSeconds()-(new Date()).getSeconds());
