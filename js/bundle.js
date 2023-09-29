@@ -540,7 +540,6 @@ function timers(){
             minutes=data.getMinutes(),
             seconds=data.getSeconds();
         const dats=document.querySelector('.timer');
-        dats.querySelector('#days').textContent=days;
         dats.querySelector('#hours').textContent=hours;
         dats.querySelector('#minutes').textContent=minutes;
         dats.querySelector('#seconds').textContent=seconds;
